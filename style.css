@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.navbar{
+    background-color: orange;
+    padding: 10px;
+    
+}
+.container{
+    padding: 20px;
+    display: inline-block;
+    
+}
+.book-authored{
+    padding: 20px;
+    width: 20%;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+.book-authored h2{
+    color: palevioletred;
+}
+
+.book-authored h3{
+    margin-top: 15px;
+}
+
+.book-authored p{
+    margin-top: 15px;
+}
+
+.book-authored button{
+    background-color: palevioletred;
+    color: black;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 15px;
+
+}
+
+.add-button{
+    background-color: palevioletred;
+    color: black;
+    border-radius: 100%;
+    padding: 30px;
+    font-size: 20px;
+    border: none;
+    right: 30px;
+    bottom: 30px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+.popup-overlay{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    top: 0%;
+    z-index: 2;
+    display: none;
+}
+
+.popup-box{
+    background-color: palevioletred;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    z-index: 3;
+    border-radius: 20px;
+    padding: 30px;
+    width: 25%;
+    display: none;
+
+}
+
+.popup-box input{
+    background-color: transparent;
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+    border: none;
+    border-bottom: black solid 2px;
+    font-size: 20px;
+
+}
+
+.popup-box textarea{
+    background-color: transparent;
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+    border: black solid 2px;
+    font-size: 20px;
+
+}
+
+.popup-box input::placeholder{
+    color: black;
+}
+
+.popup-box textarea::placeholder{
+    color: black;
+}
+
+.popup-add{
+    background-color:black;
+    color: white;
+    padding: 7px;
+    position: relative;
+    top: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    
+
+}
+
+.popup-cancel{
+    background-color:black;
+    color: white;
+    padding: 7px;
+    position: relative;
+    top: 5px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    left: 10px;
+    
+
+}
+
+.popup-box input:focus{
+    outline: none;
+}
+
+.popup-box textarea:focus{
+    outline: none;
+}
